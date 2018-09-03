@@ -37,7 +37,7 @@ source path_to_html/Organized/setup_db.sql
 - Done :)
 
 ## A Guide to Organized
-A video on how to use Organized: A Guide to Organized [A Guide to Organized](https://www.youtube.com/watch?v=jZKNmLYpIyI).
+A video on how to use Organized: A [A Guide to Organized](https://www.youtube.com/watch?v=jZKNmLYpIyI).
 
 ## Softwares used to Built Organized
 - Fedora
