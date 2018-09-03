@@ -1,0 +1,27 @@
+/* selection box css */
+
+.deleteSelectButton {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 9px;
+	font-size: 13px;
+	border-radius: 20px;
+	padding: 5px;
+	margin-left: 3px;
+
+	background: #eee;
+	color:#222;
+	box-sizing: border-box;
+	cursor:pointer;
+  	transition: background 0.3s, color 0.3s;
+}
+
+.deleteSelectButton:hover {
+ 	background: #222;
+	color: #ddd;
+}
+
+.deleteSelectButton:active {
+	padding-left: 6px;
+}

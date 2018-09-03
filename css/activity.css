@@ -1,0 +1,81 @@
+@font-face {
+	font-family: myFontEnglish;
+	src: url(../fonts/Aileron-Light.otf);
+}
+
+@font-face {
+ 	font-family: myFontBangla;
+	src: url(../fonts/muktinarrow.ttf);
+}
+
+h1 {
+	font-family: myFontEnglish;
+	text-align: center;
+}
+
+article {
+	width: 750px;
+	margin: 0 auto;
+} 
+
+#about_activity {
+	width: 750px;
+	margin: 0 auto;
+	border: 1px solid #999;
+	border-radius: 10px;
+	box-shadow:  0px 0px 10px 0px #ddd;
+}
+
+#stats {
+ 
+	display: flex;
+	align-items: stretch;
+}
+
+#stats > div {
+ 
+  width: 100px;
+  text-align: center;
+  flex-grow: 1;
+  border-top: 1px solid #999;
+}
+
+#top {
+	margin: 5px auto 0 auto;
+	width: 700px;
+}
+
+#stats span {
+	margin: 2px;
+	display: block;
+	 
+	font-family: myFontEnglish;
+}
+
+#total, #longest_streaks, #current_streaks {
+	box-sizing: border-box;
+	padding: 3px;
+}
+
+#longest_streaks {
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+#total_output, #longest_streaks_length, #current_streak_length {
+	font-size: 25px;
+	 
+}
+
+.stat_title, #total_range, .longest_streak_range, #current_streak_range {
+	font-size: 13px;
+	color: #333;
+}
+
+.longest_streak_range div,  #current_streak_range div {
+	display: inline;
+	color: #000;
+}
+
+
+ 

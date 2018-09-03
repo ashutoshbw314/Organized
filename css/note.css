@@ -1,0 +1,177 @@
+@font-face {
+	font-family: myFontEnglish;
+	src: url(../fonts/Aileron-Light.otf);
+}
+
+@font-face {
+ 	font-family: myFontBangla;
+	src: url(../fonts/muktinarrow.ttf);
+}
+
+
+.dayWindowCon {
+	width: 100%;
+	height: 100%;
+ 
+	font-family: myFontEnglish, myFontBangla;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	box-sizing: border-box;
+}
+
+#closeButton {
+	width: 25px;
+	height: 25px;
+	font-size:25px;
+	line-height: 22px;
+	border-radius: 20px;
+	text-align: center;
+	color: #222;
+	background: #eee;
+ 	transform: rotate(45deg);
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+  	transition: background 0.5s, color 0.5s;
+	z-index: 1;
+}
+
+#closeButton:hover {
+ 	background: #222;
+	color: #ddd;
+}
+
+
+#dateH {
+	text-align: center;
+	font-size: 25px;
+ 
+	position: relative;
+	top: -6px;
+}
+
+#noteH{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	border-left: 5px solid #4286f4;
+	padding-left: 2px;
+}
+
+#dayWindow {
+	width: 90%;
+	height: 500px;
+ 	box-shadow: 0px 0px 1000px 1000px rgba(0,0,0, 0.5), 0px 0px 10px 0px #000;
+	border-radius: 10px;
+	background: white;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px;
+	top: 40px;
+ 
+}
+
+.dayWindowWrap {
+	width: 100%;
+	height: 92%;
+	position: relative;
+	margin-left: 1px;
+	overflow: auto;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.noteTextarea, .noteDiv {
+	font-family: myFontEnglish, myFontBangla;
+	font-size: 17px;
+	line-height: 20px;
+	box-sizing: border-box;
+}
+
+.statusCon {
+	font-family: myFontEnglish, myFontBangla;
+	height: 30px;
+	overflow: hidden;
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	background: rgba(0,0,0,0);
+}
+
+.status {
+	width: 0px;
+	height: 30px;
+	box-sizing: border-box;
+	font-size: 15px;
+	padding: 5px;
+	border-radius: 5px;
+	background: rgba(0,0,0,0);
+	color: rgba(0,0,0,0);
+	text-align: center;
+	white-space: pre;
+	transition: background 0.2s, color 0.2s, width 0.2s;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+button {
+	margin-top: 3px;
+	margin-right: 4px;
+ 	text-shadow: 0px 0px 1px #777;
+	background-color: #475d91;
+	border: 1px solid #29395e; 	
+ 	color: white;
+	text-align: center;
+	display: inline-block;
+	border-radius: 4px;
+	cursor:pointer;
+	box-shadow: 0px 0px 2px 0px #29395e;
+	font-family: myFontEnglish, myFontBangla;
+}
+
+button:disabled{
+  color: #aaa;
+}
+
+.discardNoteButton {
+	background-color: #ff5b2d;
+	border: 1px solid #db3d11; 
+	color: white;
+	box-shadow: 0px 0px 2px 0px #db3d11;	
+}
+
+.noteTextarea {
+	display: block;
+	width: 99%;
+	height: 50px;
+	border: 1px solid #888;
+	border-radius: 4px;
+	padding: 3px;
+	margin: 0px;
+resize: vertical;
+}
+
+.noteTextarea:focus {
+	border: 1px solid blue;
+	box-shadow: 0px 0px 1px 0px rgba(51,0,255,1);
+}
+
+.noteDiv {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	width: 99%;
+	height: 50px;
+	border: 1px solid #888;
+	border-radius: 4px;
+	padding: 3px;
+	background: #eee;
+	resize: vertical;
+	overflow: auto;
+}

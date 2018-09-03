@@ -1,0 +1,11 @@
+.arrow {
+	display: inline-block;
+	margin: 0 2px 0 2px;
+}
+
+select {
+	font-family: myFontEnglish, myFontBangla;
+ 	height: 40px;
+	line-height: 15px;
+	font-size: 15px;
+}

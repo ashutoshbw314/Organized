@@ -1,0 +1,107 @@
+@font-face {
+	font-family: myFontEnglish;
+	src: url(../fonts/Aileron-Light.otf);
+}
+
+@font-face {
+ 	font-family: myFontBangla;
+	src: url(../fonts/muktinarrow.ttf);
+}
+
+* {
+	font-family: myFontEnglish, myFontBangla;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding: 4px;
+	display: block;
+	font-weight: normal;
+	background: #aadaff;
+	color: #444;
+	border-radius: 10px;
+ 	letter-spacing: 40px;
+	transition: letter-spacing 0.5s;
+}
+
+h1:hover {
+ 	letter-spacing: 0px;
+}
+
+h3 {
+	font-size: 20px;
+}
+ 
+
+#version {
+	font-size: 15px;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+
+#intro {
+	font-size: 30px;
+	margin : 20px;
+}
+
+article {
+	width: 80%;
+	margin: 0 auto;
+}
+
+li, li a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p, li, a {
+	color: #444;
+}
+
+
+#devinfo {
+	text-align: center;
+	background: #beff5e;
+	border-radius: 10px;
+}
+
+ul {
+  	padding-left: 18px;
+ 	margin-top: 0;
+}
+
+.h, ul, #intro {
+	margin-left: 20px;
+}
+
+
+li {
+  list-style-type: none;
+  margin: 1px 0 1px 0;
+  position: relative;
+}
+
+li:before {
+	content: '';
+	display: inline-block;
+	height: 10px;
+	width: 10px; 
+	position: absolute;
+	left: -15px;
+	top: 8px;
+	border-radius: 10px;    
+	box-sizing: border-box;  
+	background: #008cff;
+}
+
+
+
+li:hover:before {
+	background: #beff5e;
+}

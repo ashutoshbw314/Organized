@@ -1,0 +1,61 @@
+@font-face {
+	font-family: myFontEnglish;
+	src: url(../fonts/Belleza-Regular.ttf);
+}
+
+@font-face {
+ 	font-family: myFontBangla;
+	src: url(../fonts/muktinarrow.ttf);
+}
+
+h1, h3, h4, p, input, table {
+	font-family: myFontEnglish, myFontBangla;
+}
+
+h3, h4 {
+ margin: 2px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	margin: 4px 4px 8px 4px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table td, table th{
+	border: 1px solid #5a2019;
+	padding: 2px 4px 2px 4px; 
+	vertical-align: top;
+}
+
+td {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+table tr:nth-child(even) {background-color: #f1cac5;}
+table tr:hover {background-color: #884b43; color: white;}
+
+table th {
+	text-align: center;
+	background-color: #6a2920;
+	color: white;
+}
+
+article {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#table_container {
+ 	overflow: auto;
+}

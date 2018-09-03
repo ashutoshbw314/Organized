@@ -1,0 +1,137 @@
+@font-face {
+	font-family: myFontEnglish;
+	src: url(../fonts/Aileron-Light.otf);
+}
+
+@font-face {
+ 	font-family: myFontBangla;
+	src: url(../fonts/muktinarrow.ttf);
+}
+
+
+h1 {
+	color: #4286a4;
+}
+
+button {
+	height: 25px;
+	margin-top: 5px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+ 	text-shadow: 0px 0px 1px #777;
+	background-color: #475d91;
+	border: 1px solid #29395e; 	
+ 	color: white;
+	text-align: center;
+	display: inline-block;
+	border-radius: 4px;
+	cursor:pointer;
+	box-shadow: 0px 0px 2px 0px #29395e;
+	font-family: myFontEnglish, myFontBangla;
+}
+
+button:disabled{
+  color: #aaa;
+}
+
+.negButton {
+	background-color: #ff5b2d;
+	border: 1px solid #db3d11; 
+	color: white;
+	box-shadow: 0px 0px 2px 0px #db3d11;	
+}
+
+* {
+	font-family: myFontEnglish;
+}
+
+article {
+	width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.h {
+	border-left: 5px solid #4286f4;
+ 	font-weight: bold;
+	font-style: italic;
+	padding-left: 4px;
+	margin: 2px 0 2px 0;
+}
+
+input[type="text"] {
+	height: 30px;
+	border: 1px solid #888;
+	border-radius: 4px;
+	padding: 3px;
+}
+
+input[type="text"]:focus {
+	border: 1px solid blue;
+	box-shadow: 0px 0px 1px 0px rgba(51,0,255,1);
+}
+
+textarea {
+	line-height: 20px;
+	border: 1px solid #888;
+	border-radius: 4px;
+	padding: 3px;
+	resize: vertical;
+}
+
+textarea:focus {
+	border: 1px solid blue;
+	box-shadow: 0px 0px 1px 0px rgba(51,0,255,1);
+}
+
+#context, #newDatumName{
+	width: 96.5%;
+	height: 50px;
+}
+
+#note, #my_note {
+	width: 99%;
+	height: 50px;
+}
+
+#meaning, #examples {
+	width: 95%;
+	height: 50px;
+}
+
+#play {
+	width: 97.5%;
+	height: 50px;
+}
+
+pre {
+	margin: 2px 0 2px 0;
+}
+
+#sSelect {
+	 width: 200px;
+}
+
+select {
+	margin-bottom: 1px;
+}
+
+.multiSelect {
+	width: 150px;
+}
+
+#easynessInput, #ratingInput {
+	position: relative;
+	top: 5px;
+}
+
+#datumContent {
+	 white-space: pre-wrap;       /* css-3 */
+	 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	 white-space: -pre-wrap;      /* Opera 4-6 */
+	 white-space: -o-pre-wrap;    /* Opera 7 */
+	 word-wrap: break-word;       /* Internet Explorer 5.5+ */	
+}

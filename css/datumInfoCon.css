@@ -1,0 +1,59 @@
+#theDatum {
+	font-size: 18px;
+	margin: 2px;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	border-radius: 4px;
+	padding-left: 5px;
+	color: black;
+}
+
+#datumTypeId {
+	margin: 2px;
+}
+
+.caption {
+	border-bottom: 1px solid  #4286f4;
+	color: #222;
+	font-size: 17px;
+	display: block;
+	font-weight: bold;
+}
+
+.datumInfoItemBox {
+	margin-bottom: 3px;
+	color: #222;
+}
+
+#meaningActv, #examplesActv, #playActv, #contextActv, #myNoteActv #ml, #ei, #emo, #sourceAndDetail {
+	font-size: 15px;
+} 
+
+#meaningActv, #contextActv, #myNoteActv, #theDatum, #examplesActv, #play {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#conFlex {
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+}
+
+#conFlex > div {
+	width: 100px;
+	margin: 5px;
+}
+
+#leftSide {
+	flex-grow: 1;
+
+}
+
+#rightSide {
+	flex-grow: 1.4;
+	border-left: 1px solid #666;
+	padding-left: 6px;
+}

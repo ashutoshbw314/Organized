@@ -1,0 +1,76 @@
+@font-face {
+	font-family: myFontEnglish;
+	src: url(../fonts/Aileron-Light.otf);
+}
+
+@font-face {
+ 	font-family: myFontBangla;
+	src: url(../fonts/muktinarrow.ttf);
+}
+
+.tooltiptext, .monthName, .dayName{
+	font-family: myFontEnglish;
+	font-size: 13px;
+	line-height: 12px;
+}
+
+.monthName, .dayName {
+	color: #333;
+}
+
+.calendar {
+	position: relative;
+	width: 700px;
+ 	height: 120px;
+	 
+}
+
+.day {
+	position: absolute;
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	box-sizing: border-box;
+	background-size: contain;
+}
+
+.day .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: rgba(10,10,10, 0.9) ;
+    color: #eee;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -90px;
+}
+
+.day:hover {
+	box-shadow: 0px 0px 2px 0px blue;
+}
+
+.day:hover .tooltiptext {
+    visibility: visible;
+}
+
+.ttDateText {
+	color: #bbb;
+	font-weight: normal;
+}
+
+
+.monthName {
+	position: absolute;
+ 
+ 
+}
+
+.dayName {
+	position: absolute;
+}
