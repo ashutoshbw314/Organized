@@ -1,5 +1,5 @@
 # Organized (hastily)
-An open-source web app to organize data(currently text only) that are important to you. Hastily is the version name of this app, because it was developed very hastily. (I'm an amateur programmer who don't know to software versioning conventions properly, so I have used a name)
+An open-source web app to organize data(currently text only) that are important to you. Hastily is the version name of this app, because it was developed very hastily. (I'm an amateur programmer who don't know the software versioning conventions properly, so I have used a name)
 
 
 ## Getting Started
@@ -45,7 +45,7 @@ A video on how to use Organized: A Guide to Organized [A Guide to Organized](htt
 - [Code Mirror](https://codemirror.net/)
 
 ## Author 
-Ashutosh Biswas
+[Ashutosh Biswas](https://github.com/ashutoshbw314)
 
 ## License
 This project is under an MIT License. see the [License](./LICENSE) for detail.
