@@ -33,7 +33,7 @@ Welcome to organized, an open-source web app that helps you organize data(curren
 
 <br><br>
 <p id="devinfo">
-&lt;&gt; <i>hastily</i> by Ashutosh Biswas<br>
+&lt;&gt; <i>hastily</i> by <a href="https://github.com/ashutoshbw314">Ashutosh Biswas</a><br>
 This project is under an <a href="LICENSE">MIT License</a>
 </p>
 </article>
