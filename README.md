@@ -51,5 +51,5 @@ A video on how to use Organized: [A Guide to Organized](https://youtu.be/Ulcx0F8
 This project is under an MIT License. see the [License](./LICENSE) for detail.
 
 ## Acknowledgements
-- The activity calendar of Organized is developed inspired by the GitHub contribution calendar.
+- The activity calendar of Organized is developed inspired by the GitHub's contribution calendar.
 - Thanks to Socratica youtube channel for the excellent idea on how to use flash card effectively in [this](https://www.youtube.com/watch?v=p3-o0pxDrL0) video.
