@@ -33,11 +33,11 @@ source path_to_html/Organized/setup_db.sql
 - In the `con.php` file replace `username` with your MySQL username and `password` with our MySQL password for that username.
 - Now open your favorite web browser and go to `localhost/Organized`
 - If eveything worked fine, the home page of the app should appear. If the homepage doesn't appear, that means you have problems in setting up your enviornment or the Apache, MySQL server is not started and if you can't figure out this, you can email(ashutoshbw314@gmail.com) me about this. I will try to help you. 
-- Now you have to check your PHP MySQL connection. See the [A Guide to Organized](https://www.youtube.com/watch?v=jZKNmLYpIyI&t=114s) to know how to do this.
+- Now you have to check your PHP MySQL connection. See the [A Guide to Organized](http://www.youtube.com/watch?v=Ulcx0F87PBk&t=1m55s) to know how to do this.
 - Done :)
 
 ## A Guide to Organized
-A video on how to use Organized: [A Guide to Organized](https://www.youtube.com/watch?v=jZKNmLYpIyI).
+A video on how to use Organized: [A Guide to Organized](https://youtu.be/Ulcx0F87PBk).
 
 ## Softwares used to Built Organized
 - Fedora
@@ -51,4 +51,5 @@ A video on how to use Organized: [A Guide to Organized](https://www.youtube.com/
 This project is under an MIT License. see the [License](./LICENSE) for detail.
 
 ## Acknowledgements
+- The activity calendar of Organized is developed inspired by the GitHub contribution calendar.
 - Thanks to Socratica youtube channel for the excellent idea on how to use flash card effectively in [this](https://www.youtube.com/watch?v=p3-o0pxDrL0) video.
