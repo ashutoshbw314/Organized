@@ -87,7 +87,7 @@ function display(data, parentElt) {
 
 
 	// source and source detail
-	if (data.datumSource != "") {
+	if (data.datumSource != "" && data.datumSource != "null") {
 		let dsBox = elt("div", "datumInfoItemBox");
 		let sourceCaption = elt("span", "caption");
 		sourceCaption.textContent = "Source and source detail";
