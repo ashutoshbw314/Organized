@@ -1,5 +1,5 @@
 # Organized (hastily)
-This project is will not be maintained further.
+This project will not be maintained further.
 ---
 
 An open-source web app to organize data(currently text only) that are important to you. Hastily is the version name of this app, because it was developed very hastily. (I'm an amateur programmer who don't know the software versioning conventions properly, so I have used a name instead)
